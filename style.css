@@ -1,0 +1,22 @@
+:root {
+    --green-50: #61A61C;
+    --green-100: #6DA653;
+    --grenn-150:  #5C8C46;
+    --background: #F1F2EB;
+    --black: #0D0D0D;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+}
