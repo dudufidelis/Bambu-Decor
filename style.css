@@ -69,14 +69,6 @@ main {
     height: 100vh;
 }
 
-.text {
-    
-}
-
-.call_to_action {
-    
-}
-
 .green {
     color: var(--green-50);
 }
