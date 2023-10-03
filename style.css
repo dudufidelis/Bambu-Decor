@@ -22,23 +22,21 @@ html {
 
 body {
     background-color: var(--background);
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
 }
 
-header nav {
+nav {
     background: linear-gradient(to right, #678C30 0%, #4A751D 50%, #34590E 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4rem;
-    padding: 10px 20px;
+    height: 60px;
+    padding: 0 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100; 
+    scroll-padding-top: 60px;
 }
 
 .hamburguer {
@@ -49,7 +47,7 @@ header nav {
     width: 3.5rem;
 }
 
-.logo {
+.logo a {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -75,13 +73,14 @@ header nav {
 }
 
 section {
-    margin-top: 60px;
+    padding-top: 60px;
     height: 100vh;
     width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 .main-text {
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -98,16 +97,28 @@ section {
 
 
 @media screen and (max-width: 768px) {
-    h3 {
-        display: none; /* Ocultar em telas menores */
-    }
 
     .links {
-        display: none;
+        position: absolute;
+        top: 105%;
+        right: -100%;
+        width: 270px;
+        background-color: var(--green-100);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 5px;
+        transition: all .20s ease;
+        padding: 1rem;
     }
 
-    header nav {
+    .links.open {
+        right: 2%;
+    }
 
+    .contact {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: none;
     }
 
     .hamburguer {
