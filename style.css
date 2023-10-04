@@ -22,6 +22,18 @@ html {
 
 body {
     background-color: var(--background);
+    overflow: hidden;
+}
+
+
+.temp {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(255, 50, 23);
+    color: white;
+    font-size: 0.5rem;
+    width: 100%;    
+    text-align: center;
 }
 
 nav {
