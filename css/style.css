@@ -53,6 +53,7 @@ nav {
 
 .hamburguer {
     display: none;
+    cursor: pointer;
 }
 
 .logo-img {
