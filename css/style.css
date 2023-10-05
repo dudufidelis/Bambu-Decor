@@ -112,32 +112,123 @@ nav {
 }
 
 section {
-    padding-top: 60px;
+    padding: 60px 20px;
     height: 100vh;
     width: 100%;
     position: relative;
     z-index: 1;
 }
 
-.main-text {
+/* Section Inicio */
+
+#inicio {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100vh;
-    font-size: 1.5rem;
+    text-align: center;
 }
 
-.green {
-    color: var(--green-50);
+.main-text {
+  width: 50%;
+  font-size: 2.8rem;
+  line-height: 1.1;
+  cursor: default;
 }
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.green-text {
+    color: var(--green-100);
+}
+
+.main-text button {
+    background-color: var(--green-75);
+    color: #fff;
+    font-size: 1rem;
+    border: 1px solid var(--green-150);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.main-text button:hover {
+    background-color: var(--green-100);
+}
+
+.main-image {
+    width: 50%;
+    min-width: 20%;
+    min-height: 20%;
+    height: 100vh;
+    position: relative;
+}
+
+.home-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid var(--green-150);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.377);
+    z-index: 2;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.home-img:hover {
+    transform: scale(1.1);
+}
+
+.bigger-img {
+    position: absolute;
+    top: 200px;
+    right: 360px;
+}
+
+.home-img:nth-child(2) {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: 100px;
+    right: 100px;
+}
+
+.home-img:nth-child(3) {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    bottom: 380px;
+    right: 80px;
+}
+
+.geometric-shape {
+    position: absolute;
+    background-image: linear-gradient(to right top, #93bf50, #88b248, #7da540, #729838, #678c30);
+    border-radius: 30% 70% 67% 33% / 30% 33% 67% 70%;
+    width: 500px;
+    height: 500px;
+    top: 150px;
+    right: 100px;
+    z-index: 1;
+}
+
+
+/* Section Quem Somos */
+
+
+/* Section Projetos */
 
 .slider {
     margin: 0 auto;
     width: 800px;
     height: 400px;
     overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid var(--green-150);
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.623);
 }
 
 .slides {
