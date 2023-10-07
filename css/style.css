@@ -167,11 +167,7 @@ section {
 .main-image img {
     width: 100%;
     position: absolute;
-    bottom: 0;
-    right: 0;
 }
-
-
 
 /* Section Quem Somos */
 
@@ -193,7 +189,7 @@ section {
     text-align: justify;
     margin: 2rem;
     margin-bottom: 8rem;
-    padding: 5rem;
+    padding: 5rem; 
 }
 
 .text p {
@@ -211,6 +207,7 @@ section {
 .second-image {
     width: 50%;
 }
+
 /* Section Projetos */
 
 .slider {
