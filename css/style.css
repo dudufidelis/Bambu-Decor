@@ -27,14 +27,20 @@ body {
 
 
 .temp {
-    position: fixed;
-    bottom: 0;
-    background-color: rgb(255, 50, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
     color: white;
     font-size: 0.5rem;
     width: 100%;    
     text-align: center;
-    z-index: 2;
+}
+
+.temp h1 {
+    background-color: rgb(255, 50, 23);
+    width: 100%;
 }
 
 .wpp-btn {
