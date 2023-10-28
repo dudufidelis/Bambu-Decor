@@ -58,7 +58,7 @@ html {
 
 section {
     height: 100vh;
-    margin-top: 14rem;
+    padding-top: 14rem;
 }
 
 /* HEADER */
@@ -72,7 +72,7 @@ header {
     z-index: 100;
     top: 32px;
     left: 0;
-    padding-inline: 400px;
+    padding-inline: 620px;
     border-radius: 15px;
 }
 
@@ -146,7 +146,7 @@ header {
     flex-shrink: 0;
     border-radius: 1.5rem;
     background: var(--container-bc);
-    margin: 7.63rem auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -164,6 +164,13 @@ header {
 
 .main-subtitle {
     width: 47.4375rem;
+}
+
+.main-text-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .main-title h1 {
@@ -186,7 +193,7 @@ header {
     gap: 2rem;
 }
 
-.main-buttons a:nth-child(1) {
+.contact-us {
     display: flex;
     width: 16rem;
     padding: 1.5rem;
@@ -201,16 +208,7 @@ header {
     transition: all 200ms ease-in-out;
 }
 
-.main-buttons a:nth-child(1):hover {
-    background-color: var(--green-800);
-}
-
-.main-buttons a:nth-child(2):hover {
-    border: 4px solid var(--green-800);
-    color: var(--green-800);
-}
-
-.main-buttons a:nth-child(2) {
+.show-projects {
     display: flex;
     width: 16rem;
     padding: 1.5rem;
@@ -222,6 +220,15 @@ header {
     font-size: 1.25rem;
     font-weight: 700;
     transition: all 200ms ease-in-out;
+}
+
+.main-buttons a:nth-child(1):hover {
+    background-color: var(--green-800);
+}
+
+.main-buttons a:nth-child(2):hover {
+    border: 4px solid var(--green-800);
+    color: var(--green-800);
 }
 
 .main-image-side img {
@@ -238,18 +245,52 @@ header {
 
 }
 
+.bar {
+    width: 6.0625rem;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+    background: #D9D9D9;
+}
+
 .content1-header {
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem; 
+    width: 54.8rem; 
+    margin: 0 auto;
+}
+
+.header-text {
+    width: 32.6875rem;
+}
+
+.header-text h1 {
+    color: var(--green-900, #304018);
+    text-align: center;
+    font-size: 3.0625rem;
+    font-weight: 700;
+}
+
+.green {
+    color: var(--green-700, #658E3D);
+}
+
+.content1-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    margin: 152px 9.75rem;
+}
+
+.bamboo-img {
+    width: 18.0625rem;
+    height: 18.0625rem;
+}
+
+.bamboo-img:nth-child(2) {
+
 }
 
 
 
-<div class="content1-container">
-<div class="content1-header">
-    <div class="bar"></div>
-    <div class="header-text">
-        <h1>O que fazemos para o seu <span class="green">ambiente</span>?</h1>
-    </div>
-    <div class="bar"></div>
-</div>
-</div>
