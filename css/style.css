@@ -56,14 +56,24 @@ html {
 
 */
 
+section {
+    height: 100vh;
+    margin-top: 14rem;
+}
 
 /* HEADER */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70.5rem;
-    margin: 2.5rem auto;
+    width: 100%;
+    height: 6.8rem;
+    position: fixed;
+    z-index: 100;
+    top: 32px;
+    left: 0;
+    padding-inline: 400px;
+    border-radius: 15px;
 }
 
 .logo-img {
@@ -215,9 +225,31 @@ header {
 }
 
 .main-image-side img {
-    width: 33.9375rem;
-    height: 49.8125rem;
+    width: 27.375rem;
+    height: 43.5625rem;
     position: absolute;
-    right: -5.125rem;
-    top: -10.375rem;
+    right: -1.375rem;
+    top: -4.125rem;
 }
+
+/* CONTENT1 */
+
+.content1-container {
+
+}
+
+.content1-header {
+    
+}
+
+
+
+<div class="content1-container">
+<div class="content1-header">
+    <div class="bar"></div>
+    <div class="header-text">
+        <h1>O que fazemos para o seu <span class="green">ambiente</span>?</h1>
+    </div>
+    <div class="bar"></div>
+</div>
+</div>
