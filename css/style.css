@@ -84,6 +84,29 @@ header {
     font-weight: 700;
 }
 
+.links a {
+    position: relative;
+}
+
+.links a:hover {
+    color: var(--green-800);
+}
+
+.links a:before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    background-color: var(--green-800);
+    transition: all 400ms ease-in-out;
+}
+
+.links a:hover:before {
+    width: 100%;
+}
+
 .contact { 
     display: flex;
     padding: 1.5rem;
@@ -93,6 +116,11 @@ header {
     border-radius: 1rem;
     background: var(--green-900);
     color: white;
+    transition: all 200ms ease-in-out;
+}
+
+.contact:hover {
+    background-color: var(--green-800);
 }
 
 /* HERO BANNER */
@@ -160,6 +188,16 @@ header {
     color: #FFF;
     font-size: 1.25rem;
     font-weight: 700;
+    transition: all 200ms ease-in-out;
+}
+
+.main-buttons a:nth-child(1):hover {
+    background-color: var(--green-800);
+}
+
+.main-buttons a:nth-child(2):hover {
+    border: 4px solid var(--green-800);
+    color: var(--green-800);
 }
 
 .main-buttons a:nth-child(2) {
@@ -173,6 +211,7 @@ header {
     color: var(--green-900);
     font-size: 1.25rem;
     font-weight: 700;
+    transition: all 200ms ease-in-out;
 }
 
 .main-image-side img {
