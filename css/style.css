@@ -81,7 +81,6 @@ html {
 */
 
 section {
-    height: 100vh;
     padding-top: 5rem;
 }
 
@@ -258,10 +257,11 @@ header {
     top: -4.125rem;
 }
 
-/* CONTENT1 */
 
-#main {
-    height: fit-content;
+/* WE-DO */
+
+#we-do {
+    height: auto;
 }
 
 .bar {
@@ -281,32 +281,44 @@ header {
 }
 
 .header-text {
-    width: 32.6875rem;
+    width: 32.6rem;
 }
 
 .header-text h1 {
     color: var(--green-900, #304018);
     text-align: center;
-    font-size: 3.0625rem;
+    font-size: 3rem;
     font-weight: 700;
+}
+
+.header-text p {
+    color: var(--grey);
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2rem;
 }
 
 .green {
     color: var(--green-700, #658E3D);
 }
 
+.we-do-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .we-do-content {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    margin-top: 10rem;
+    gap: 4.25rem;
+    padding: 5rem;
 }
 
 .we-do-content2 {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin: 5rem auto;
 }
 
 .bamboo-img, .bamboo2-img{
@@ -315,7 +327,7 @@ header {
 }
 
 .bamboo2-img {
-    margin-top: 8rem;
+    margin: 12rem 0rem 2rem 0rem;
 }
 
 .call-to-action {
@@ -328,6 +340,17 @@ header {
     width: 20rem;
 }
 
+/* Projects */
+
+#projects {
+
+}
+
+.projects-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
 
 
