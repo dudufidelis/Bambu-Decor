@@ -343,14 +343,76 @@ header {
 /* Projects */
 
 #projects {
-
+    padding-top: 12rem;
 }
 
 .projects-container {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
 }
+
+.projects-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    gap: 2rem;
+}
+
+.projects-header h1 {
+    color: var(--green-900);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.projects-header p {
+    color: var(--grey);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem;
+}
+
+.projects-button {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-button a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 3px solid var(--green-900);
+    width: auto;
+    padding: 1rem;
+    height: 3.5rem;
+    color: var(--green-900, #304018);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.projects-button a:hover {
+    border: 3px solid var(--green-800);
+    color: var(--green-800);
+}
+
+.instagram {
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+
 
 
 
