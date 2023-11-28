@@ -199,6 +199,10 @@ header {
     transition: all 200ms ease-in-out;
 }
 
+.contact-us:hover {
+    background-color: var(--green-800);
+}
+
 .show-projects {
     display: flex;
     width: 16rem;
