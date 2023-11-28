@@ -447,7 +447,6 @@ header {
     font-weight: 500;
 }
 
-
 .accordion {
     display: flex;
     flex-direction: column;
@@ -465,6 +464,7 @@ header {
     border: 3px solid var(--green-800);
     transition: all 200ms ease-in-out, color 100ms;
     cursor: pointer;
+    width: 70rem;
 }
 
 .accordion-item:hover .accordion-heading p:hover {
@@ -472,7 +472,7 @@ header {
 }
 
 .accordion-item.active .accordion-heading p:hover {
-    color: #FFF;
+    color: #fff;
 }
 
 .accordion-heading {
@@ -504,18 +504,17 @@ header {
 }
 
 .accordion-item.active .accordion-heading p {
-    color: #FFF;
+    color: #fff;
 }
 
 .accordion-item.active {
     background-color: var(--green-800);
-    color: #FFF;
+    color: #fff;
 }
 
 .accordion-item.active .accordion-content {
     display: block;
 }
-
 
 /* Banner call to action */
 
@@ -534,17 +533,18 @@ header {
     height: 21rem;
     align-self: stretch;
     border-radius: 1rem;
-    background: url(../assets/banner.png), lightgray -421.73px -596.835px / 177.461% 329.706% no-repeat;
+    background: url(../assets/banner.png),
+        lightgray -421.73px -596.835px / 177.461% 329.706% no-repeat;
 }
 
 .banner h1 {
-    color: #F6FFED;
+    color: #f6ffed;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
 .banner p {
-    color: #F6FFED;
+    color: #f6ffed;
     font-size: 1.25rem;
     font-weight: 700;
 }
@@ -557,7 +557,7 @@ header {
     align-items: center;
     gap: 0.5rem;
     border-radius: 1rem;
-    border: 4px solid #F6FFED;
+    border: 4px solid #f6ffed;
 }
 
 /* Contacts */
@@ -571,7 +571,7 @@ header {
     gap: 3.5rem;
     margin: 0 auto;
     border-radius: 1rem;
-    background-color: #F0EFEC;
+    background-color: #f0efec;
 }
 
 .contact-header {
@@ -619,12 +619,12 @@ header {
     transition: all 200ms ease-in-out;
 }
 
-.contact-buttons a:hover {
+.contact-buttons a:hover, .contact-form form > input[type="submit"]:hover  {
     background: var(--green-800);
 }
 
 .contact-buttons a > p {
-    color: #FFF;
+    color: #fff;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
@@ -661,7 +661,7 @@ header {
     gap: 0.5rem;
     align-self: stretch;
     border-radius: 1rem;
-    background: #D6D6D6;
+    background: #d6d6d6;
     width: 58.5rem;
 }
 
@@ -674,14 +674,12 @@ header {
     border-radius: 1rem;
     background: var(--green-900);
     width: 7rem;
-    color: #FFF;
+    color: #fff;
     font-size: 1.25rem;
     font-weight: 700;
- 
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
 }
-
-
-
 
 /* Footer */
 
@@ -695,7 +693,7 @@ footer {
 }
 
 .copyright p {
-    color: #F6FFED;
+    color: #f6ffed;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -705,8 +703,7 @@ footer {
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
-    color: #F6FFED;
+    color: #f6ffed;
     font-size: 1.25rem;
     font-weight: 400;
 }
-
