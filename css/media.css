@@ -1,0 +1,39 @@
+.aviso-dispositivos-menores {
+    display: none;
+}
+
+@media screen and (max-width: 1163px) {
+    section, footer, header {
+        display: none;
+    }
+    .aviso-dispositivos-menores {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        padding: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .aviso-dispositivos-menores img {
+        max-width: 177px;
+        margin-bottom: 2rem;
+    }
+
+    .aviso-dispositivos-menores h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .aviso-dispositivos-menores a {
+        display: flex;
+        padding: 1rem;
+        background-color: #304018;
+        border-radius: 5px;
+        color: #FFF;
+        cursor: pointer;
+    }
+}

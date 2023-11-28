@@ -8,6 +8,7 @@
         content="Transforme seu espaço com o encanto do bambu artificial da Bambu Decor! Solicite agora seu orçamento e deixe a magia da natureza entrar na sua vida.">
     <title>BambuDecor | Bambus artificiais em Maringá</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <script defer src="js/menu.js"></script>
     <script defer src="js/slider.js"></script>
@@ -21,6 +22,11 @@
 </head>
 
 <body>
+    <div class="aviso-dispositivos-menores">
+        <img src="assets/logo-nome.png" alt="BambuDecor">
+        <h1>Ainda estamos construindo a versão mobile :(</h1>
+        <a href="https://instagram.com/bambudecor.mga">Por enquanto nos acompanhe pelo Instagram </a>
+    </div>
     <header>
         <div class="logo">
             <a href="https://bambudecor.com.br">
@@ -242,7 +248,7 @@
                     </div>
                     <div>
                         <p>Mensagem</p>
-                        <input type="text" name="message" required />
+                        <textarea maxlength="500" name="message" class="msg-box" cols="30" rows="10" required></textarea>
                     </div>
 
                     <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
