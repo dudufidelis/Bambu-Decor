@@ -1,0 +1,54 @@
+:root {
+    --green-0: #f6ffed;
+    --green-100: #e5fbce;
+    --green-200: #d2f5af;
+    --green-300: #bfeb92;
+    --green-400: #abdc79;
+    --green-500: #96c963;
+    --green-600: #7fae50;
+    --green-700: #658e3d;
+    --green-800: #49682a;
+    --green-900: #304018;
+    --grey: #565656;
+    --container-bc: #f0efec;
+    --background: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: "montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.success-container {
+    text-align: center;
+    padding: 3rem;
+    background-color: var(--container-bc);
+    border-radius: 10px;
+}
+
+h1 {
+    color: var(--green-800);
+}
+
+p {
+    margin-top: 10px;
+    color: var(--grey);
+}
+
+#countdown {
+    color: var(--green-700);
+    font-weight: bold;
+}
+
