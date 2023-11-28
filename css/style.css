@@ -559,3 +559,154 @@ header {
     border-radius: 1rem;
     border: 4px solid #F6FFED;
 }
+
+/* Contacts */
+
+.contact-container {
+    display: flex;
+    width: 70.5rem;
+    padding: 4rem 2.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background-color: #F0EFEC;
+}
+
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-text h1 {
+    color: var(--green-900);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.contact-text p {
+    color: var(--grey);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.contact-buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 5.8rem;
+}
+
+.contact-buttons a {
+    display: flex;
+    width: 16rem;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    background: var(--green-900);
+    transition: all 200ms ease-in-out;
+}
+
+.contact-buttons a:hover {
+    background: var(--green-800);
+}
+
+.contact-buttons a > p {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sub-text p {
+    color: var(--grey);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.contact-form {
+    display: flex;
+    width: 58.5rem;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.contact-form form {
+    display: flex;
+    width: 58.5rem;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.contact-form div > input {
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    border-radius: 1rem;
+    background: #D6D6D6;
+    width: 58.5rem;
+}
+
+.contact-form form > input[type="submit"] {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    background: var(--green-900);
+    width: 7rem;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+ 
+}
+
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 2.5rem 9.75rem;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--green-900);
+}
+
+.copyright p {
+    color: #F6FFED;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.socials-midia {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    color: #F6FFED;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
